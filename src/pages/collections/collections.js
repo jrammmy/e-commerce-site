@@ -2,7 +2,7 @@ import React from "react";
 import DATA from "./data.js";
 import CollectionPreview from "../../components/collection-preview/collection-preview";
 
-class Collections extends React.Component {
+class CollectionsPage extends React.Component {
   constructor(props) {
     super(props);
 
@@ -23,4 +23,4 @@ class Collections extends React.Component {
   }
 }
 
-export default Collections;
+export default CollectionsPage;
